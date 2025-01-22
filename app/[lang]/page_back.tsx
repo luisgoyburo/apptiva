@@ -1,5 +1,7 @@
 import { getDictionary } from "../../get-dictionary";
 import { Locale } from "../../i18n-config";
+import Counter from "./components/counter";
+import LocaleSwitcher from "./components/locale-switcher";
 
 export default async function IndexPage(props: {
   params: Promise<{ lang: Locale }>;
@@ -10,11 +12,14 @@ export default async function IndexPage(props: {
 
   return (
     <div>
+      <LocaleSwitcher />
       <div>
-        <p>Apptiva</p>
+        <p>Current locale: {lang}</p>
         <p>
-          Solutions
+          This text is rendered on the server:{" "}
+          {dictionary["server-component"].welcome}
         </p>
+        <Counter dictionary={dictionary.counter} />
       </div>
     </div>
   );

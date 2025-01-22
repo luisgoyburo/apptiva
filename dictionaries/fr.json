@@ -1,0 +1,22 @@
+{
+  "server-component": {
+    "welcome": "Bienvenue"
+  },
+  "counter": {
+    "increment": "Augmenter",
+    "decrement": "Décrémenter"
+  },
+  "nav": {
+    "webApp": "Web/Application",
+    "uxui": "UX/UI",
+    "creativeContent": "Contenu Créatif",
+    "aiServices": "Services d'IA",
+    "login": "Connexion",
+    "createFreeAccount": "Créer un Compte Gratuit"
+  },
+  "banner": {
+    "headline": "Transformez vos idées en solutions percutantes",
+    "paragraph": "Notre mission est d'autonomiser les entreprises avec les outils dont elles ont besoin pour prospérer, en alliant créativité, technologie et intelligence artificielle pour offrir des résultats qui comptent vraiment.",
+    "button": "Transformez Votre Entreprise"
+  }
+}

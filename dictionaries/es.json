@@ -1,0 +1,22 @@
+{
+  "server-component": {
+    "welcome": "Bienvenido"
+  },
+  "counter": {
+    "increment": "Incremento",
+    "decrement": "Decremento"
+  },
+  "nav": {
+    "webApp": "Web/Aplicaciones",
+    "uxui": "UX/UI",
+    "creativeContent": "Contenido Creativo",
+    "aiServices": "Servicios de IA",
+    "login": "Iniciar Sesión",
+    "createFreeAccount": "Crear Cuenta Gratis"
+  },
+  "banner": {
+    "headline": "Transforma tus ideas en soluciones impactantes",
+    "paragraph": "Nuestra misión es empoderar a las empresas con las herramientas que necesitan para prosperar, combinando creatividad, tecnología e inteligencia artificial para obtener resultados que realmente importan.",
+    "button": "Transforma tu Negocio"
+  }
+}

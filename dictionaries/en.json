@@ -5,5 +5,18 @@
   "counter": {
     "increment": "Increment",
     "decrement": "Decrement"
+  },
+  "nav": {
+    "webApp": "Web/App",
+    "uxui": "UX/UI",
+    "creativeContent": "Creative Content",
+    "aiServices": "AI Services",
+    "login": "Login",
+    "createFreeAccount": "Create Free Account"
+  },
+  "banner": {
+    "headline": "Transform Your Ideas into Impactful Solutions",
+    "paragraph": "Our mission is to empower businesses with the tools they need to thrive, blending creativity, technology, and AI to deliver results that truly matter.",
+    "button": "Transform Your Business"
   }
 }
