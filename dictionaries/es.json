@@ -15,8 +15,42 @@
     "createFreeAccount": "Crear Cuenta Gratis"
   },
   "banner": {
-    "headline": "Transforma tus ideas en soluciones impactantes",
+    "headline": {
+      "before": "Transforma tus",
+      "highlight": "Ideas",
+      "after": "en soluciones impactantes"
+    },
     "paragraph": "Nuestra misión es empoderar a las empresas con las herramientas que necesitan para prosperar, combinando creatividad, tecnología e inteligencia artificial para obtener resultados que realmente importan.",
     "button": "Transforma tu Negocio"
+  },
+  "webapp": {
+    "title": {
+      "before": "Expertos en",
+      "highlight": "desarrollo",
+      "after": "de Sitios Web y Apps"
+    },
+    "description": "Nos especializamos en construir sitios web y aplicaciones escalables y de alto rendimiento utilizando las tecnologías más recientes. Ya sea React, Angular, Ruby on Rails o .NET, ofrecemos soluciones de calidad adaptadas a tus necesidades.",
+    "technologies": {
+      "react": "React",
+      "angular": "Angular",
+      "rails": "Ruby on Rails",
+      "dotnet": ".NET"
+    },
+    "cta": "Saber Más"
+  },
+  "uxUiSection": {
+    "title": {
+      "before": "Soluciones de",
+      "highlight": "Diseño UX/UI",
+      "after": "Centrado en el Usuario"
+    },
+    "description": "Creamos diseños centrados en el usuario que ofrecen experiencias fluidas. Desde wireframes hasta prototipos, convertimos ideas en productos funcionales y visualmente impactantes.",
+    "technologies": {
+      "figma": "Figma",
+      "sketch": "Sketch",
+      "adobeXd": "Adobe XD",
+      "prototyping": "Photoshop"
+    },
+    "cta": "Explora Nuestros Diseños"
   }
 }

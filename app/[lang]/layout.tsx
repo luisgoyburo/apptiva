@@ -1,8 +1,27 @@
 import { i18n, type Locale } from "../../i18n-config";
 import { getDictionary } from "../../get-dictionary"; // Import the dictionary function
 import Header from "./components/Header/Header";
-import Banner from "./components/Banner/banner";
+import { Inter, Roboto } from 'next/font/google';
+import { Covered_By_Your_Grace } from 'next/font/google';
 import './globals.css'; // Import the global styles file
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'], // Include all weights
+  variable: '--font-inter',
+});
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['100', '300', '400', '500', '700', '900'], // Include all weights
+  variable: '--font-roboto',
+});
+
+const coveredByYourGrace = Covered_By_Your_Grace({
+  subsets: ['latin'], // Specify subsets
+  weight: '400', // Specify the available weight
+  variable: '--font-covered-by-your-grace', // Add a CSS variable for Tailwind
+});
 
 export const metadata = {
   title: "i18n within app router - Vercel Examples",
@@ -24,11 +43,10 @@ export default async function RootLayout(props: {
   const dictionary = await getDictionary(params.lang);
 
   return (
-    <html lang={params.lang}>
+    <html lang={params.lang} className={`${inter.variable} ${roboto.variable} ${coveredByYourGrace.variable}`}>
       <body>
         {/* Pass dictionary to Header */}
         <Header dictionary={dictionary["nav"]} />
-        <Banner dictionary={dictionary["banner"]} />
         {children}
       </body>
     </html>

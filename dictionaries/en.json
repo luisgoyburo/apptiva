@@ -15,8 +15,42 @@
     "createFreeAccount": "Create Free Account"
   },
   "banner": {
-    "headline": "Transform Your Ideas into Impactful Solutions",
+    "headline": {
+      "before": "Transform Your",
+      "highlight": "Ideas",
+      "after": "into Impactful Solutions"
+    },
     "paragraph": "Our mission is to empower businesses with the tools they need to thrive, blending creativity, technology, and AI to deliver results that truly matter.",
     "button": "Transform Your Business"
+  },
+  "webapp": {
+    "title": {
+      "before": "Expert",
+      "highlight": "Web/App",
+      "after": "Development"
+    },
+    "description": "We specialize in building scalable, high-performance websites and applications using the latest technologies. Whether it's React, Angular, Ruby on Rails, or .NET, we deliver quality solutions tailored to your needs.",
+    "technologies": {
+      "react": "React",
+      "angular": "Angular",
+      "rails": "Ruby on Rails",
+      "dotnet": ".NET"
+    },
+    "cta": "Learn More"
+  },
+  "uxUiSection": {
+    "title": {
+      "before": "User-Centered ",
+      "highlight": "UX/UI Design",
+      "after": "Solutions"
+    },
+    "description": "We craft user-centric designs that deliver seamless experiences. From wireframes to prototypes, we turn ideas into visually stunning and functional products.",
+    "technologies": {
+      "figma": "Figma",
+      "sketch": "Sketch",
+      "adobeXd": "Adobe XD",
+      "prototyping": "Photoshop"
+    },
+    "cta": "Explore Our Designs"
   }
 }

@@ -2,11 +2,15 @@
 
 import React from "react";
 import Image from "next/image";
-import bannerImage from "../../../../public/banner_image.jpg"; // Replace with your actual image
+import bannerImage from "../../../../public/banner_image.png"; // Replace with your actual image
 
 interface BannerProps {
   dictionary: {
-    headline: string;
+    headline: {
+      before: string;
+      highlight: string;
+      after: string;
+    };
     paragraph: string;
     button: string;
   };
@@ -15,14 +19,16 @@ interface BannerProps {
 const Banner: React.FC<BannerProps> = ({ dictionary }) => {
   return (
     <section
-      className="bg-[#1FA59A] text-white flex flex-col md:flex-row items-center justify-between px-6 py-12 lg:px-16 lg:py-20"
+      className="bg-[#E0F8F2] text-black flex flex-col md:flex-row items-center justify-between px-6 py-12 lg:px-16 lg:py-20"
     >
       {/* Text Content */}
       <div className="max-w-lg">
-        <h1 className="text-4xl lg:text-5xl font-bold mb-4">
-          {dictionary.headline}
+        <h1 className="font-inter text-4xl lg:text-5xl font-bold mb-4">
+        <span>{dictionary.headline.before} </span>
+          <span className="text-[#009387] font-covered text-5xl lg:text-6xl font-normal">{dictionary.headline.highlight}</span>
+          <span> {dictionary.headline.after}</span>
         </h1>
-        <p className="text-lg mb-6">{dictionary.paragraph}</p>
+        <p className="font-roboto text-lg mb-6">{dictionary.paragraph}</p>
         <button className="bg-[#FF6D2D] hover:bg-[#E65C1A] text-white py-3 px-6 rounded-lg transition">
           {dictionary.button}
         </button>

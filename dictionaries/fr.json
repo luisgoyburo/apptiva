@@ -15,8 +15,42 @@
     "createFreeAccount": "Créer un Compte Gratuit"
   },
   "banner": {
-    "headline": "Transformez vos idées en solutions percutantes",
+    "headline": {
+      "before": "Transformez vos",
+      "highlight": "Idées",
+      "after": "en solutions percutantes"
+    },
     "paragraph": "Notre mission est d'autonomiser les entreprises avec les outils dont elles ont besoin pour prospérer, en alliant créativité, technologie et intelligence artificielle pour offrir des résultats qui comptent vraiment.",
     "button": "Transformez Votre Entreprise"
+  },
+  "webapp": {
+    "title": {
+      "before": "Développement",
+      "highlight": "Expert",
+      "after": "de Sites Web et Applications"
+    },
+    "description": "Nous sommes spécialisés dans la création de sites web et d'applications évolutives et performantes en utilisant les dernières technologies. Que ce soit React, Angular, Ruby on Rails ou .NET, nous fournissons des solutions de qualité adaptées à vos besoins.",
+    "technologies": {
+      "react": "React",
+      "angular": "Angular",
+      "rails": "Ruby on Rails",
+      "dotnet": ".NET"
+    },
+    "cta": "En Savoir Plus"
+  },
+  "uxUiSection": {
+    "title": {
+      "before": "Solutions de",
+      "highlight": "Design UX/UI",
+      "after": "Centré sur l'Utilisateur"
+    },
+    "description": "Nous concevons des designs centrés sur l'utilisateur qui offrent des expériences fluides. Des wireframes aux prototypes, nous transformons des idées en produits fonctionnels et esthétiques.",
+    "technologies": {
+      "figma": "Figma",
+      "sketch": "Sketch",
+      "adobeXd": "Adobe XD",
+      "prototyping": "Photoshop"
+    },
+    "cta": "Découvrez Nos Designs"
   }
 }
