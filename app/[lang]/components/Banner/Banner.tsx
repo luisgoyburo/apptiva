@@ -19,7 +19,7 @@ interface BannerProps {
 const Banner: React.FC<BannerProps> = ({ dictionary }) => {
   return (
     <section
-      className="bg-[#E0F8F2] text-black flex flex-col md:flex-row items-center justify-between px-6 py-12 lg:px-16 lg:py-20"
+      className="bg-[#E0F8F2] text-black flex flex-col md:flex-row items-center justify-between px-6 py-12 lg:px-16 lg:py-20 xl:px-52"
     >
       {/* Text Content */}
       <div className="max-w-lg">

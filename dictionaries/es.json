@@ -52,5 +52,55 @@
       "prototyping": "Photoshop"
     },
     "cta": "Explora Nuestros Diseños"
+  },
+  "creativeContent": {
+    "title": {
+      "before": "Contenido Creativo",
+      "highlight": "para Elevar",
+      "after": "Tu Marca"
+    },
+    "description": "Descubre nuestros servicios creativos para establecer una identidad memorable, mejorar tu presencia en línea y ofrecer contenido visual que cautive a tu audiencia.",
+    "services": {
+      "branding": {
+        "title": "Identidad de Marca",
+        "description": "Construyendo identidades fuertes y memorables para tu negocio"
+      },
+      "socialDesigns": {
+        "title": "Diseños para Redes Sociales",
+        "description": "Impulsa tu presencia en línea con diseños llamativos y coherentes con tu marca"
+      },
+      "contentDevelopment": {
+        "title": "Desarrollo de Contenido",
+        "description": "Creando contenido profesional que atrae e informa"
+      },
+      "graphicDesign": {
+        "title": "Diseño Gráfico",
+        "description": "Creando gráficos que cautivan y comunican"
+      }
+    }
+  },
+  "aiServices": {
+    "title": {
+      "before": "Servicios de IA",
+      "highlight": "para Transformar",
+      "after": "Tu Negocio"
+    },
+    "description": "Aprovecha el poder de la IA para optimizar operaciones, obtener insights y crear soluciones inteligentes adaptadas a tus necesidades.",
+    "services": {
+      "chatbots": { "title": "Chatbots y Asistentes Virtuales impulsados por IA" },
+      "dataAnalysis": { "title": "Análisis de Datos e Insights impulsados por IA" },
+      "contentCreation": { "title": "Creación de Contenido y Automatización mejoradas con IA" },
+      "imageVideoAnalysis": { "title": "Análisis de Imágenes y Videos impulsado por IA" },
+      "industrySolutions": { "title": "Soluciones impulsadas por IA para Industrias Específicas" }
+    }
+  },
+  "footer": {
+    "aboutUs": "Sobre Nosotros",
+    "description": "Empoderando negocios a través de la tecnología y soluciones creativas.",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "followUs": "Síguenos",
+    "rightsReserved": "© 2025 Apptiva Solutions. Todos los derechos reservados."
   }
 }

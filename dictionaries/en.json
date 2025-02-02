@@ -52,5 +52,55 @@
       "prototyping": "Photoshop"
     },
     "cta": "Explore Our Designs"
+  },
+  "creativeContent": {
+    "title": {
+      "before": "Creative Content",
+      "highlight": "to Elevate",
+      "after": "Your Brand"
+    },
+    "description": "Explore our creative services to establish a memorable identity, enhance your online presence, and deliver engaging visuals that captivate your audience.",
+    "services": {
+      "branding": {
+        "title": "Branding",
+        "description": "Building Strong, Memorable Identities for Your Business"
+      },
+      "socialDesigns": {
+        "title": "Designs for Social Networks",
+        "description": "Boost Your Online Presence with Eye-Catching, On-Brand Visuals"
+      },
+      "contentDevelopment": {
+        "title": "Content Development",
+        "description": "Crafting Professional Content That Engages and Informs"
+      },
+      "graphicDesign": {
+        "title": "Graphic Design",
+        "description": "Creating Visuals that Captivate and Communicate"
+      }
+    }
+  },
+  "aiServices": {
+    "title": {
+      "before": "AI Services",
+      "highlight": "to Transform",
+      "after": "Your Business"
+    },
+    "description": "Harness the power of AI to streamline operations, gain insights, and create intelligent solutions tailored to your needs.",
+    "services": {
+      "chatbots": { "title": "AI-Powered Chatbots and Virtual Assistants" },
+      "dataAnalysis": { "title": "AI-Driven Data Analysis and Insights" },
+      "contentCreation": { "title": "AI-Enhanced Content Creation and Automation" },
+      "imageVideoAnalysis": { "title": "AI-Powered Image and Video Analysis" },
+      "industrySolutions": { "title": "AI-Driven Solutions for Specific Industries" }
+    }
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "description": "Empowering businesses through technology and creative solutions.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "rightsReserved": "© 2025 Apptiva Solutions. All rights reserved."
   }
 }

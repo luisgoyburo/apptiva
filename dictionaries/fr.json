@@ -52,5 +52,55 @@
       "prototyping": "Photoshop"
     },
     "cta": "Découvrez Nos Designs"
+  },
+  "creativeContent": {
+    "title": {
+      "before": "Contenu Créatif",
+      "highlight": "pour Élever",
+      "after": "Votre Marque"
+    },
+    "description": "Découvrez nos services créatifs pour établir une identité mémorable, améliorer votre présence en ligne et offrir des visuels captivants à votre audience.",
+    "services": {
+      "branding": {
+        "title": "Image de Marque",
+        "description": "Construire des identités fortes et mémorables pour votre entreprise"
+      },
+      "socialDesigns": {
+        "title": "Conceptions pour Réseaux Sociaux",
+        "description": "Renforcez votre présence en ligne avec des visuels accrocheurs et conformes à votre marque"
+      },
+      "contentDevelopment": {
+        "title": "Développement de Contenu",
+        "description": "Créer un contenu professionnel qui engage et informe"
+      },
+      "graphicDesign": {
+        "title": "Conception Graphique",
+        "description": "Créer des visuels qui captivent et communiquent"
+      }
+    }
+  },
+  "aiServices": {
+    "title": {
+      "before": "Services IA",
+      "highlight": "pour Transformer",
+      "after": "Votre Entreprise"
+    },
+    "description": "Exploitez la puissance de l'IA pour rationaliser vos opérations, obtenir des informations et créer des solutions intelligentes adaptées à vos besoins.",
+    "services": {
+      "chatbots": { "title": "Chatbots et Assistants Virtuels alimentés par l'IA" },
+      "dataAnalysis": { "title": "Analyse des Données et Insights alimentés par l'IA" },
+      "contentCreation": { "title": "Création et Automatisation de Contenu améliorées par l'IA" },
+      "imageVideoAnalysis": { "title": "Analyse d'Images et Vidéos alimentée par l'IA" },
+      "industrySolutions": { "title": "Solutions alimentées par l'IA pour Industries Spécifiques" }
+    }
+  },
+  "footer": {
+    "aboutUs": "À Propos",
+    "description": "Accompagner les entreprises avec des solutions technologiques et créatives.",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Suivez-nous",
+    "rightsReserved": "© 2025 Apptiva Solutions. Tous droits réservés."
   }
 }

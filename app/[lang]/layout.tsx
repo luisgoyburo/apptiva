@@ -1,6 +1,7 @@
 import { i18n, type Locale } from "../../i18n-config";
 import { getDictionary } from "../../get-dictionary"; // Import the dictionary function
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import { Inter, Roboto } from 'next/font/google';
 import { Covered_By_Your_Grace } from 'next/font/google';
 import './globals.css'; // Import the global styles file
@@ -48,6 +49,7 @@ export default async function RootLayout(props: {
         {/* Pass dictionary to Header */}
         <Header dictionary={dictionary["nav"]} />
         {children}
+        <Footer dictionary={dictionary.footer} />
       </body>
     </html>
   );
