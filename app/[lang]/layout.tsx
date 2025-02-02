@@ -25,8 +25,8 @@ const coveredByYourGrace = Covered_By_Your_Grace({
 });
 
 export const metadata = {
-  title: "i18n within app router - Vercel Examples",
-  description: "How to do i18n in Next.js 15 within app router",
+  title: "Apptiva Solutions",
+  description: "Our mission is to empower businesses with the tools they need to thrive, blending creativity, technology, and AI to deliver results that truly matter.",
 };
 
 export async function generateStaticParams() {
