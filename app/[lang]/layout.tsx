@@ -27,6 +27,28 @@ const coveredByYourGrace = Covered_By_Your_Grace({
 export const metadata = {
   title: "Apptiva Solutions",
   description: "Our mission is to empower businesses with the tools they need to thrive, blending creativity, technology, and AI to deliver results that truly matter. ",
+  keywords: "AI, Web Development, UX/UI, Creative Content, Apptiva Solutions",
+  openGraph: {
+    title: "Apptiva Solutions",
+    description: "Empowering businesses with AI, technology, and creative solutions.",
+    url: "https://www.apptiva.site",
+    siteName: "Apptiva Solutions",
+    images: [
+      {
+        url: "/logoLGapptiva.png", // Ensure this image exists in `/public/images/`
+        width: 1200,
+        height: 630,
+        alt: "Apptiva Solutions",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Apptiva Solutions",
+    description: "Empowering businesses with AI, technology, and creative solutions.",
+    images: ["/logoLGapptiva.png"],
+  },
 };
 
 export async function generateStaticParams() {
