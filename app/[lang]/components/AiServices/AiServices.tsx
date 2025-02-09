@@ -32,7 +32,7 @@ interface AiServicesProps {
 const AiServices: React.FC<AiServicesProps> = ({ dictionary }) => {
 
     return (
-        <section className="bg-[#EEECFF] text-gray-800 py-16">
+        <section className="bg-[#EEECFF] text-gray-800 py-16" id="ai">
             <div className="max-w-7xl mx-auto px-6 lg:px-8">
                 {/* Title and Description */}
                 <div className="text-center mb-12">

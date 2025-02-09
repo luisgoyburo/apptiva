@@ -26,7 +26,7 @@ interface CreativeContentProps {
 
 const CreativeContent: React.FC<CreativeContentProps> = ({ dictionary }) => {
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white py-16" id="creative">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Title and Description */}
         <div className="text-center mb-12">

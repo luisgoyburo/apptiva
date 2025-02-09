@@ -29,27 +29,29 @@ const Header: React.FC<HeaderProps> = ({ dictionary }) => {
       <div className={styles.wrapper}>
         {/* Logo */}
         <div className={styles.logo}>
-          <Image
-            src={logo}
-            alt="Apptiva Solutions Logo"
-            width={129} // 289 * (100/225) to maintain proportions
-            height={100}
-            priority
-          />
+          <a href="/">
+            <Image
+              src={logo}
+              alt="Apptiva Solutions Logo"
+              width={129} // 289 * (100/225) to maintain proportions
+              height={100}
+              priority
+            />
+          </a>
         </div>
 
         {/* Navigation Bar */}
         <nav className={styles.nav}>
-          <a href="#web" className={styles.navLink}>
+          <a href="/#web" className={styles.navLink}>
             {dictionary.webApp}
           </a>
-          <a href="#uxui" className={styles.navLink}>
+          <a href="/#uxui" className={styles.navLink}>
             {dictionary.uxui}
           </a>
-          <a href="#creative" className={styles.navLink}>
+          <a href="/#creative" className={styles.navLink}>
             {dictionary.creativeContent}
           </a>
-          <a href="#ai" className={styles.navLink}>
+          <a href="/#ai" className={styles.navLink}>
             {dictionary.aiServices}
           </a>
         </nav>
@@ -67,11 +69,11 @@ const Header: React.FC<HeaderProps> = ({ dictionary }) => {
         <div className={styles.mobileMenuButton}>
           <button aria-label="Open menu" onClick={toggleMenu}>
             <svg
-              className="h-6 w-6"
+              className="h-12 w-12 mt-4"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="black"
             >
               <path
                 strokeLinecap="round"
@@ -87,13 +89,16 @@ const Header: React.FC<HeaderProps> = ({ dictionary }) => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className={styles.mobileMenu}>
-          <a href="#web" className={styles.mobileMenuLink}>
+          <a href="/#web" className={styles.mobileMenuLink}>
             {dictionary.webApp}
           </a>
-          <a href="#creative" className={styles.mobileMenuLink}>
+          <a href="/#uxui" className={styles.mobileMenuLink}>
+            {dictionary.uxui}
+          </a>
+          <a href="/#creative" className={styles.mobileMenuLink}>
             {dictionary.creativeContent}
           </a>
-          <a href="#ai" className={styles.mobileMenuLink}>
+          <a href="/#ai" className={styles.mobileMenuLink}>
             {dictionary.aiServices}
           </a>
           <button className={`${styles.loginButton} w-full text-left`}>

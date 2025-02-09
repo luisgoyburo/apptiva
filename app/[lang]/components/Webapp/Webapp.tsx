@@ -27,7 +27,7 @@ interface WebappProps {
 
   const Webapp: React.FC<WebappProps> = ({ dictionary }) => {
     return (
-        <section className="bg-white py-12">
+        <section className="bg-white py-12" id="web">
             <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
                 {/* Title */}
                 <h2 className="text-3xl font-extrabold text-gray-800 sm:text-4xl mb-4">

@@ -28,7 +28,7 @@ interface UxUiSectionProps {
 
 const UxUiSection: React.FC<UxUiSectionProps> = ({ dictionary }) => {
   return (
-    <section className="bg-[#FDF3EA] py-12">
+    <section className="bg-[#FDF3EA] py-12" id="uxui">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
         {/* Title */}
         <h2 className="text-3xl font-extrabold text-gray-800 sm:text-4xl mb-4">

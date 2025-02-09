@@ -21,7 +21,7 @@ export const signupButton =
 export const mobileMenuButton = "font-roboto md:hidden text-white focus:outline-none";
 
 export const mobileMenu =
-  "md:hidden bg-[#FFFFFF] absolute top-16 left-0 w-full flex flex-col space-y-4 px-6 py-4 shadow-md z-10";
+  "md:hidden bg-[#FFFFFF]  left-0 w-full flex flex-col space-y-4 px-6 py-4 pt-8 shadow-md z-10";
 
 export const mobileMenuLink =
   "font-roboto text-black text-sm hover:text-[#8A76FC] transition";
