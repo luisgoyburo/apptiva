@@ -7,6 +7,7 @@ import dataAnalysis from "../../../../public/dataAnalysis.jpg";
 import ai_content_creation from "../../../../public/ai_content_creation.png";
 import ai_video_analysis from "../../../../public/ai_video_analysis.png";
 import ai_industry_solutions from "../../../../public/ai_industry_solutions.webp";
+import Link from "next/link"
 
 interface AiServicesProps {
     dictionary: {
@@ -23,6 +24,8 @@ interface AiServicesProps {
             imageVideoAnalysis: { title: string };
             industrySolutions: { title: string };
         };
+        try: string;
+        tryLink: string;
     };
 }
 
@@ -108,8 +111,16 @@ const AiServices: React.FC<AiServicesProps> = ({ dictionary }) => {
                         </h3>
                     </div>
 
+
+                </div>
+                <div className="text-center mt-12 mb-12">
+                <span className="text-4xl">{dictionary.try} </span>
+                <span className="text-4xl font-bold text-[#009387]"><Link href="/ai_chat" className="hover:text-[#009387] transition">
+                    {dictionary.tryLink}
+                </Link></span>
                 </div>
             </div>
+
         </section>
 
     );

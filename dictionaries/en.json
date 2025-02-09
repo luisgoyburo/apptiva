@@ -92,7 +92,9 @@
       "contentCreation": { "title": "AI-Enhanced Content Creation and Automation" },
       "imageVideoAnalysis": { "title": "AI-Powered Image and Video Analysis" },
       "industrySolutions": { "title": "AI-Driven Solutions for Specific Industries" }
-    }
+    },
+    "try": "Test our",
+    "tryLink": "Chat with Artificial Inteligence"
   },
   "footer": {
     "aboutUs": "About Us",
@@ -102,5 +104,10 @@
     "contact": "Contact",
     "followUs": "Follow Us",
     "rightsReserved": "© 2025 Apptiva Solutions. All rights reserved."
+  },
+  "aiChat": {
+    "title": "AI Chat",
+    "description": "Chat with AI-powered responses.",
+    "backToHome": "Back to Home"
   }
 }

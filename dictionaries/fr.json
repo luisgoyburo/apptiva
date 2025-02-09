@@ -92,7 +92,9 @@
       "contentCreation": { "title": "Création et Automatisation de Contenu améliorées par l'IA" },
       "imageVideoAnalysis": { "title": "Analyse d'Images et Vidéos alimentée par l'IA" },
       "industrySolutions": { "title": "Solutions alimentées par l'IA pour Industries Spécifiques" }
-    }
+    },
+    "try": "Essayez notre",
+    "tryLink": "Chat avec l'intelligence artificielle"
   },
   "footer": {
     "aboutUs": "À Propos",
@@ -102,5 +104,10 @@
     "contact": "Contact",
     "followUs": "Suivez-nous",
     "rightsReserved": "© 2025 Apptiva Solutions. Tous droits réservés."
+  },
+  "aiChat": {
+    "title": "Chat de IA",
+    "description": "Chatea con respuestas impulsadas por IA.",
+    "backToHome": "Volver a Inicio"
   }
 }
