@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+  <cbc:ID>F001-456</cbc:ID>
+  <cbc:IssueDate>2024-12-02</cbc:IssueDate>
+  <cac:AccountingSupplierParty>
+    <cbc:CustomerAssignedAccountID>20456789012</cbc:CustomerAssignedAccountID>
+  </cac:AccountingSupplierParty>
+  <cac:LegalMonetaryTotal>
+    <cbc:PayableAmount currencyID="PEN">950.00</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+</Invoice>

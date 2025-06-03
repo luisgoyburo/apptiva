@@ -117,6 +117,11 @@ const AiServices: React.FC<AiServicesProps> = ({ dictionary }) => {
                 <span className="text-4xl">{dictionary.try} </span>
                 <span className="text-4xl font-bold text-[#009387]"><Link href="/ai_chat" className="hover:text-[#009387] transition">
                     {dictionary.tryLink}
+                </Link></span><br />
+                <span className="text-4xl">O...</span><br />
+                <span className="text-4xl">AI Finanzas para Pequeños Empresarios </span>
+                <span className="text-4xl font-bold text-[#009387]"><Link href="/ai-finanzas" className="hover:text-[#009387] transition">
+                    Asistente de Ganancias y Pérdidas
                 </Link></span>
                 </div>
             </div>
