@@ -1,20 +1,20 @@
-// /app/api/ai/route.ts (usando app directory y route handlers)
-import { OpenAIStream, StreamingTextResponse } from 'ai';
-import OpenAI from 'openai';
+// app/api/ai/route.ts
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY!,
-});
+import { openai } from '@ai-sdk/openai';
+import { streamText } from 'ai';
+import { NextResponse } from 'next/server';
 
 export async function POST(req: Request) {
   const { messages } = await req.json();
 
-  const response = await openai.chat.completions.create({
-    model: 'gpt-4',
-    stream: true,
+  const result = await streamText({
+    model: openai.chat('gpt-4'),
     messages,
   });
 
-  const stream = OpenAIStream(response);
-  return new StreamingTextResponse(stream);
+  return new NextResponse(result.toDataStream(), {
+    headers: {
+      'Content-Type': 'text/plain; charset=utf-8',
+    },
+  });
 }
