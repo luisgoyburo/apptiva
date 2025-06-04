@@ -10,7 +10,7 @@
     "webApp": "Web/Aplicaciones",
     "uxui": "UX/UI",
     "creativeContent": "Contenido Creativo",
-    "aiServices": "Servicios de IA",
+    "aiServices": "Apps de IA",
     "login": "Iniciar Sesión",
     "createFreeAccount": "Crear Cuenta Gratis"
   },
@@ -81,7 +81,7 @@
   },
   "aiServices": {
     "title": {
-      "before": "Servicios de IA",
+      "before": "Apps de IA",
       "highlight": "para Transformar",
       "after": "Tu Negocio"
     },
